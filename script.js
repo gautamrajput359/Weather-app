@@ -1,0 +1,1 @@
+let p = fetch("https://goweather.herokuapp.com/weather/Curitiba")

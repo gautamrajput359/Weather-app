@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #588157;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.content {
+    margin-top: 10vh;
+    height: 70vh;
+    width: 50vh;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #647ce5, #64E5CB);
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: white;
+    margin-top: 5vh;
+    height: 6vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.search img {
+    height: 3vh;
+    width: 3vw;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.search input {
+    height: 4vh;
+    font-family: "Merriweather", serif;
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.weatherlogo img {
+    margin-top: 20px;
+    height: 6em;
+    width: 6em;
+    cursor: pointer;
+}
+.temp {
+    font-size: 40px;
+    cursor: pointer;
+}
+.description {
+    font-size: 20px;
+}
+.location {
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.humidity, .wind {
+    display: flex;
+    cursor: pointer;
+}
